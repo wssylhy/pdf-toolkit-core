@@ -1,0 +1,22 @@
+{
+  "name": "pdf-toolkit-core",
+  "version": "1.0.0",
+  "description": "纯前端 PDF 合并/按页码拆分/体积预估核心库:页码区间解析、分块方案、激活码校验,浏览器与 Node 通用,本地处理数据不出设备",
+  "main": "pdf-core.js",
+  "scripts": {
+    "test": "node test/smoke-test.js"
+  },
+  "keywords": [
+    "pdf",
+    "merge",
+    "split",
+    "compress",
+    "page-ranges",
+    "browser",
+    "local-first"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "pdf-lib": "^1.17.1"
+  }
+}
